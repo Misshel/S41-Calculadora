@@ -1,3 +1,35 @@
+html,body,section{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Khula', sans-serif;
+  background-color: ghostwhite;
+}
+input[type="button"],
+button{
+  background-color: #62676b;
+  border-radius: 50%;
+  border-style: none;
+  width: 4rem;
+  margin: 0.5rem;
+  height: 4rem;
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+}
+input.gray-green{
+  background-color: darkslategray;
+}
+button:focus,
+input:focus{
+  outline: none;
+}
+hr{
+  background: white;
+  height: 2px;
+  border-style: none;
+}
+
 /*Utilities*/
 .gray-dark{
   background-color: #3b444b;
@@ -15,20 +47,6 @@
   background-color: #f0c50f;
 }
 
-input[type="button"],
-button{
-  border-radius: 50%;
-  border-style: none;
-  width: 19%;
-  height: 21%;
-  color: white;
-  font-weight: 800;
-  font-size: 15px;
-}
-button:focus,
-input:focus{
-  outline: none;
-}
 .flex{
   display: flex;
   align-items: center;
@@ -40,18 +58,18 @@ input:focus{
   width: 280px;
 }
 .head{
-height: 80px;
-border-top-left-radius: 44px;
-border-top-right-radius: 44px;
+  height: 80px;
+  border-top-left-radius: 44px;
+  border-top-right-radius: 44px;
 }
 .content{
-  height: 200px;
-  padding: 9% 7% 40% 7%;
+  padding: 9% 7% 9% 7%;
   border-bottom-left-radius: 44px;
   border-bottom-right-radius: 44px;
   text-align: center;
 }
 .screen-case{
+  box-sizing: content-box;
   height: 42px;
   background-color: darkgray;
   padding: 3%;
@@ -66,16 +84,4 @@ border-top-right-radius: 44px;
   font-size: 30px;
   text-align: right;
   color: white;
-}
-hr{
-  background: white;
-  height: 2px;
-  border-style: none;
-}
-html,body,section{
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: 'Khula', sans-serif;
-  background-color: ghostwhite;
 }
